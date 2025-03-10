@@ -1,0 +1,33 @@
+# Игнорировать датасеты
+dataset/
+labeled_data/
+
+# Игнорировать виртуальное окружение
+venv/
+env/
+*.env
+
+# Игнорировать кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Игнорировать файлы Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Игнорировать логи
+*.log
+
+# Игнорировать файлы модели (если они большие)
+*.pt
+*.pth
+*.h5
+*.model
+
+# Игнорировать временные файлы
+.DS_Store
+.idea/
+.vscode/

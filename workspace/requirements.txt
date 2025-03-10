@@ -1,0 +1,9 @@
+ultralytics==8.3.86
+torch==2.6.0
+torchvision==0.21.0
+transformers==4.49.0
+numpy==1.26.4
+opencv-python==4.11.0.86
+matplotlib==3.10.1
+scikit-learn==1.6.1
+pandas==2.2.3
