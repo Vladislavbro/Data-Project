@@ -5,15 +5,15 @@
 ## Структура проекта
 
 ```
-/Projects/
-├── Ruberta1/           # Модель Ruperta и связанные файлы
+/Data-Project/
 ├── dataset/            # Исходные данные для разметки (изображения, видео)
 ├── labeled_data/       # Результаты разметки
 │   ├── images/         # Размеченные изображения
 │   └── videos/         # Размеченные видео
 ├── venv/               # Виртуальное окружение
-├── workspace/          # Рабочие скрипты и ноутбуки
-└── yolo/               # Модель YOLO и связанные файлы
+└── workspace/          # Рабочие скрипты и ноутбуки
+    ├── Test-yolo.py    # Скрипт для работы с YOLO
+    └── Test-ruberta.ipynb # Ноутбук для работы с Ruperta
 ```
 
 ## Настройка окружения
@@ -21,7 +21,7 @@
 Виртуальное окружение настроено на уровне корневой папки проекта. Для активации:
 
 ```bash
-source /Users/vladpalamarchuk/Documents/Projects/venv/bin/activate
+source /Users/vladpalamarchuk/Documents/Data-Project/venv/bin/activate
 ```
 
 ## Основные зависимости
@@ -45,7 +45,7 @@ source /Users/vladpalamarchuk/Documents/Projects/venv/bin/activate
 Скрипт `Test-yolo.py` используется для разметки изображений и видео с помощью модели YOLO:
 
 ```bash
-cd /Users/vladpalamarchuk/Documents/Projects/workspace
+cd /Users/vladpalamarchuk/Documents/Data-Project/workspace
 python Test-yolo.py
 ```
 
@@ -60,7 +60,7 @@ python Test-yolo.py
 Для работы с моделью Ruperta используйте ноутбук `Test-ruberta.ipynb`:
 
 ```bash
-jupyter notebook /Users/vladpalamarchuk/Documents/Projects/workspace/Test-ruberta.ipynb
+jupyter notebook /Users/vladpalamarchuk/Documents/Data-Project/workspace/Test-ruberta.ipynb
 ```
 
 ## Добавление новых данных
